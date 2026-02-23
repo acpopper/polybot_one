@@ -1,0 +1,18 @@
+{
+  "name": "bot_one",
+  "version": "1.0.0",
+  "description": "First attempt at polymarket trading bot for the BTC 5 min up down event",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-credentials": "node src/credentials.js"
+  },
+  "author": "Aerius",
+  "license": "ISC",
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.4",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.0"
+  }
+}

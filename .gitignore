@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# CSV and other data outputs
+market-data.csv
+
+# Misc
+.DS_Store
+*.swp
+
+# VSCode settings
+.vscode/
+# Cursor settings
+.cursor/
+# OS generated files
+Thumbs.db
+# End Generation Here
+```
